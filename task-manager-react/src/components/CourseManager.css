@@ -1,0 +1,102 @@
+.course-app {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+}
+
+.course-app h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course-app ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.course-app li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  flex-wrap: wrap;
+}
+
+.course-title {
+  font-weight: bold;
+  font-size: 16px;
+  flex: 1;
+}
+
+.status-btn {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  position: relative;
+}
+
+.status-btn::after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.status-btn.Started {
+  background-color: #2196f3;
+  color: white;
+}
+
+.status-btn.InProgress {
+  background-color: #fbc02d;
+  color: black;
+}
+
+.status-btn.Completed {
+  background-color: #4caf50;
+  color: white;
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 140px;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  display: none;
+  z-index: 10;
+}
+
+.dropdown-wrapper:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+
+
+
+
+

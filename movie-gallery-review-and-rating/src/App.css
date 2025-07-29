@@ -1,0 +1,137 @@
+.app {
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poster {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.title {
+  margin: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.btn-wrapper {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.book-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: red;
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.book-btn:hover {
+  background-color: darkred;
+}
+
+/* ⭐ Review & Rating Styles */
+.stars {
+  margin: 10px 0;
+}
+
+.review-box {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  resize: none;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+}
+
+.submit-btn {
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.saved-review {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+.review-box {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 10px;
+  resize: none;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-family: sans-serif;
+}
+
+.submit-btn {
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+.saved-review {
+  margin-top: 10px;
+  text-align: left;
+  font-size: 14px;
+  color: #333;
+  width: 90%;
+}
+
