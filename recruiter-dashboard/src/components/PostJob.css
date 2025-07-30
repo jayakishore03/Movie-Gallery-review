@@ -1,0 +1,78 @@
+.postjob-container {
+  max-width: 700px;
+  margin: 2rem auto;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #2d3436;
+}
+
+.toggle-box {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.toggle-box:hover {
+  background-color: #4834d4;
+}
+
+.section-content {
+  background: #ffffff;
+  padding: 1.2rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.section-content label {
+  display: block;
+  margin-bottom: 1rem;
+  color: #2d3436;
+  font-weight: 500;
+}
+
+.section-content input,
+.section-content textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 60px;
+}
+
+.submit-btn {
+  background-color: #00b894;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+
+.submit-btn:hover {
+  background-color: #00cec9;
+}
+
+

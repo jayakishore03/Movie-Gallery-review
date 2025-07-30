@@ -1,0 +1,35 @@
+.company-logos-section {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #f4f6fa;
+  border-radius: 10px;
+}
+
+.logo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.logo-card {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.logo-card:hover {
+  transform: scale(1.05);
+}
+
+.logo-card img {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 8px;
+}
+
+

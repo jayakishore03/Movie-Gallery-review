@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../movie-gallery"
+		}
+	],
+	"settings": {
+		"workbench.activityBar.iconClickBehavior": "toggle"
+	}
+}

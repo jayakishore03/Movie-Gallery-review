@@ -1,0 +1,65 @@
+.job-card {
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.2s ease;
+  color: #212529;
+  background-color: #f8f9fa;
+}
+
+.job-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* Color Themes */
+.card-blue {
+  background-color: #e6f0ff;
+}
+
+.card-green {
+  background-color: #e0ffe6;
+}
+
+.card-yellow {
+  background-color: #fff9db;
+}
+
+.card-orange {
+  background-color: #ffe5cc;
+}
+
+.card-purple {
+  background-color: #f0e6ff;
+}
+
+/* Student Grid Layout */
+.student-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.student-card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.student-card:hover {
+  transform: scale(1.03);
+}
+
+.student-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+

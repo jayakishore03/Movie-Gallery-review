@@ -1,0 +1,60 @@
+/* src/pages/Welcome.css */
+.welcome-page {
+  text-align: center;
+  margin-top: 100px;
+  font-family: sans-serif;
+}
+
+.welcome-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* ✅ Space between buttons */
+  flex-wrap: wrap; /* ✅ Responsive layout */
+}
+
+.welcome-btn {
+  padding: 12px 24px;
+  background-color: #6c5ce7;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.welcome-btn:hover {
+  background-color: #4b4be2;
+}
+.welcome-page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #fdfcfb, #e2d1c3);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.welcome-page h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.welcome-page p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.welcome-page .buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}

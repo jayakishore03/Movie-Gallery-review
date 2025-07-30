@@ -1,0 +1,42 @@
+.comm-layout {
+  display: flex;
+  height: 100%;
+  min-height: 90vh;
+}
+
+.comm-sidebar {
+  width: 220px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+}
+
+.comm-sidebar h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.comm-sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.comm-sidebar li {
+  margin-bottom: 12px;
+}
+
+.comm-sidebar a {
+  color: white;
+  text-decoration: none;
+}
+
+.comm-sidebar .active a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.comm-main {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
