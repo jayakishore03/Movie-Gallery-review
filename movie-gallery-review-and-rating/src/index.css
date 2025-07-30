@@ -8,9 +8,9 @@ body {
 
 .title {
   text-align: center;
-  background: #111;
-  color: white;
-  padding: 20px;
+  background: #caccca;
+  color: rgb(24, 21, 21);
+  padding: 5px;
   font-size: 2rem;
 }
 
@@ -97,7 +97,7 @@ body {
 
 .saved-review {
   font-size: 0.9rem;
-  color: #444;
+  color: #511264;
   margin-top: 5px;
 }
 
