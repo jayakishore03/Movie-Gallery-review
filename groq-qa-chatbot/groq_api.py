@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-GROQ_API_KEY = "Your Groq API Key Here"  # Replace with your actual Groq API key
+GROQ_API_KEY = "Your api key"  # Replace with your actual Groq API key
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL = "llama3-8b-8192"  # or "gemma-7b-it"
 

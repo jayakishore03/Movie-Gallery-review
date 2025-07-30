@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # === CONFIG ===
-GROQ_API_KEY = "Your Groq API Key Here"
+GROQ_API_KEY = "your api key"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL_NAME = "llama3-8b-8192"
 
